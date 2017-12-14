@@ -1,0 +1,64 @@
+<html>
+	<Head>
+		<title> Arduino </title>
+		<link href="../styles.css" rel="stylesheet" type="text/css" />	
+		
+		<script>
+			var width = window.screen.availWidth;
+			var minWidthOfScreen = 960;
+			
+			if (width <= minWidthOfScreen) {
+				window.location.href = "mobilePage/mobilePage.html";
+			}
+		</script>
+		<style>
+			.smallPic {
+				width: 75%;
+				margin: 1%;
+			}
+			p {
+				margin:1%;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div class="webSiteBox">
+			<div class="header">
+				<h1>3D Design</h1>
+			</div>
+			
+			<ul class="main">
+				<li class="selectedPage" id="top"><a href="../index.html">Home</a></li>
+				<li><a href="../aboutMe/aboutMe.html">About Me</a></li>
+				<li class="menueHolder">
+					<a id="placeHolder">Projects</a>
+					<ul class="dropDown">
+						<li id="top"><a href="footballData.html">Football Data</a></li>
+						<li><a href=2dDesign.html>2D Design</a></li>
+						<li><a href="htmlStuff.html">HTML Stuff</a></li>
+						<li><a href="3dDesign.html">3D Design</a></li>
+            <li><a href="Arduino.html">Arduino </a></li>
+					</ul>
+				</li>
+			</ul>
+			
+			<div class="textStuff">
+				<p>
+					For arduino, there were two aspects, the hardware aspect was the actual circutry. The other aspect was the code.
+				</p>
+				<p>
+					For the circuts you have to attatch the ground pin to the ground wire, wich for LEDs is the shorter one, and then the the positive lead to any pin 1-13. but if you would like to make the LED fade in and out, then you hav to use a PMW pin, which is marked by a ~
+				</p>
+				<p>
+					I have also designed a phone stand, which i have also 3d pinted. the gcode for this is also displayed.
+				</p>
+				<img id="middle" src="price stefan.png"/>
+				<img id="right" src="phone stand pic.png"/>
+			</div>
+			
+			<div class="header" id="footer">
+			</div>
+		</div>
+	</body>
+</html>
