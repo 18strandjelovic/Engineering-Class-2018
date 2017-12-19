@@ -90,7 +90,7 @@ li:hover {
 .textStuff p {
 	padding: .5em;
 	background-color: #c3c3c3;
-	margin-right: .5em;
+	float: left;
 }
 
 #mobile {
